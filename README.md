@@ -11,7 +11,7 @@ A full stack application to store / list places you have travelled
   - [x] Setup Express App
   - [x] Setup Not Found and Error Middleware
 
-- [] Model DB
+- [x] Model DB
 
   - What data will be stored?
 
