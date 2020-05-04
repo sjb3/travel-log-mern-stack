@@ -15,12 +15,12 @@ A full stack application to store / list places you have travelled
 
   - What data will be stored?
 
-- [] Setup Mongoose Model(s)
-- [] POST /logs
-  - [] Create a new log entry
-- [] GET / logs
-  - [] List all log entries
-- [] Setup Client
+- [x] Setup Mongoose Model(s)
+- [x] POST /logs
+  - [x] Create a new log entry
+- [x] GET / logs
+  - [x] List all log entries
+- [x] Setup Client
 - [] Create Form to add a new entry
 - [] Setup Map SDK on client
 - [] List all log entries on map
