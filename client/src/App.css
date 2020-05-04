@@ -9,13 +9,17 @@
 }
 
 .marker {
-  stroke: #39ff14;
-
   transform: translate(-50%, -100%);
 }
 
+.marker.green {
+  fill: #39ff14;
+}
+
+.marker.new {
+  fill: #fe109a;
+}
+
 .popup {
-  max-width: 300px;
-  /* margin: 5px; */
-  background: pink;
+  margin: 1rem;
 }
