@@ -1,11 +1,6 @@
 .App {
   height: 100%;
   width: 100%;
-  /* position: absolute;
-  top: 0;
-  left: 0;
-  height: 100vh;
-  width: 100vw; */
 }
 
 .marker {
@@ -22,4 +17,12 @@
 
 .popup {
   margin: 1rem;
+}
+
+.popup img {
+  height: 200px;
+  width: auto;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
 }

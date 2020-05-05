@@ -16,11 +16,13 @@ const App = () => {
     zoom: 3,
   });
 
+  const getEntries = async () => {
+    const logEntries = await listLogEntry();
+    setLogEntries(logEntries);
+  };
+
   useEffect(() => {
-    (async () => {
-      const logEntries = await listLogEntry();
-      setLogEntries(logEntries);
-    })();
+    getEntries();
   }, []);
 
   const showAddMarkerPopup = (evt) => {
@@ -138,7 +140,13 @@ const App = () => {
               anchor="top"
             >
               <div className="popup">
-                <LogEntryForm />
+                <LogEntryForm
+                  onClose={() => {
+                    setAddEntryLocation(null);
+                    getEntries();
+                  }}
+                  location={addEntryLocation}
+                />
               </div>
             </Popup>
           </>
