@@ -18,3 +18,11 @@
 .popup {
   margin: 1rem;
 }
+
+.popup img {
+  height: 200px;
+  width: auto;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+}
